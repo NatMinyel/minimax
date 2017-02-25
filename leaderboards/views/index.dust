@@ -1,0 +1,23 @@
+{>"layout" /}
+
+{<body }
+    <h2> Leaderboards</h2>
+    <table>
+    <thead>
+        <tr>
+            <th>Rank</th>
+            <th>User</th>
+            <th>Succcess Rate</th>
+        </tr>
+    </thead>
+    <tbody>
+    {#users}
+        <tr>
+            <td>{rank}</th>
+            <td>{username}</td>
+            <td>{successrate}</td>
+        </tr>
+    {/users}
+    </tbody>
+    </table>
+{/body }

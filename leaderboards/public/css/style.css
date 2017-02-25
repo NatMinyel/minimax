@@ -1,0 +1,23 @@
+body {
+    margin-top: 10px;
+    background: #f9f9f9;
+}
+th,td {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #000000;
+}
+tr {
+    border: 1px solid gray;
+}
+td {
+    width:200px;
+    padding:3px;
+}
+th {
+    background-color:#D2E0E8;
+    color:#003366
+}
+table {
+    border: 1pt solid gray;
+}
